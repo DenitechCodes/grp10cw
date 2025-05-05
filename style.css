@@ -133,10 +133,12 @@ footer{
     font-size: 20px;
   }
 }
-.footer-angle, .foter-text{
+.footer-angle, {
+color:#4b4c4d;
+}
+.foter-text{
     color:#4b4c4d;
 }
-
 
 
 
