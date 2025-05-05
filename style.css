@@ -96,7 +96,6 @@ nav{
 footer{
     display:flex;
     flex-wrap: wrap;
-    gap:1rem;
     padding: 1rem;
 }
 
@@ -105,8 +104,6 @@ footer{
     background-color: aquamarine;
     min-width: 200px;
     box-sizing: border-box;
-    padding: 1rem;
-
 }
 @media (max-width:600px){
     .column{
