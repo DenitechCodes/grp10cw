@@ -39,13 +39,13 @@ header{
 }
 
 .header-links{
-    padding-top: 8px;
-    min-width: 50px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
     padding-bottom: 4px;
     text-decoration: none;
-    color:black
+    color:black;
+    font-size:11px;
 }
 .header-links:hover{
     color:blue;
