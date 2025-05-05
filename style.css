@@ -126,15 +126,16 @@ footer{
   }
 .footer-links{
     text-decoration:none;
-    color:grey;
+    color:#4b4c4d;
 }
 @media screen and (min-width: 1400px) {
   body {
     font-size: 20px;
   }
 }
-
-
+.footer-angle{
+    color:#4b4c4d;
+}
 
 
 
