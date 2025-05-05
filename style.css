@@ -100,7 +100,6 @@ footer{
 
 .footermajor{
     flex:1;
-    background-color: aquamarine;
     min-width: 200px;
     box-sizing: border-box;
     padding: 1rem;
