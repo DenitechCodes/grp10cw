@@ -104,7 +104,8 @@ footer{
     min-width: 200px;
     box-sizing: border-box;
     padding: 1rem;
-    margin:4px;
+    margin-top:4px;
+    margin-bottom:4px;
 }
 @media (max-width:600px){
     .column{
