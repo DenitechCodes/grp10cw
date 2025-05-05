@@ -123,6 +123,10 @@ footer{
       width: 100%; /* fixed content width */
     }
   }
+.footer-links{
+    text-decoration:none;
+    color:black;
+}
 
 
 
