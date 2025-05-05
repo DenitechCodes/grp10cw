@@ -113,6 +113,10 @@ footer{
         flex:100%
     }
 }
+.footer-links{
+text-decoration:none;
+color:black;
+}
 
 .footer-bottom{
     background-color: yellow;
