@@ -126,7 +126,7 @@ footer{
   }
 .footer-links{
     text-decoration:none;
-    color:black;
+    color:grey;
 }
 @media screen and (min-width: 1400px) {
   body {
