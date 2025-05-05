@@ -96,7 +96,6 @@ nav{
 footer{
     display:flex;
     flex-wrap: wrap;
-    padding: 1rem;
 }
 
 .footermajor{
@@ -104,6 +103,8 @@ footer{
     background-color: aquamarine;
     min-width: 200px;
     box-sizing: border-box;
+    padding: 1rem;
+    margin:4px;
 }
 @media (max-width:600px){
     .column{
