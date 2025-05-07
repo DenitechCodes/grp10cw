@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widith=divice-width, initial-scale=1.0">
+        <title>sign in</title>
+        <style>
+           .user-name,.button-name ,.pass-word{
+            display: flex;
+            flex-direction: column;
+            margin: 4px;
+           }
+
+           form{
+            width: 70%;
+
+           }
+           .login-general{
+            display: flex;
+            border-style: solid;
+            border-radius: 10px;
+            border-color: aqua;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+           }
+           p{
+            padding: 0px;
+            margin: 4px;
+           }
+           
+           .login-panel{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(158, 197, 228);
+           }
+           *{
+            padding:0px;
+            margin: 0px;
+            font-size: 1rem;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+           }
+
+           @media (max-width:600px){
+            *{
+                font-size: 1rem;
+            }
+            .login-general{
+                width: 80%;
+            }
+
+           }
+        
+           .button-name{
+            background-color: green;
+            color: aliceblue;
+            border-style: none;
+            padding-left:8px;
+            padding-right:8px;
+            margin: 4px;
+            border-radius: 5px;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="login-panel">
+            <div class="login-general">
+                <p>Create GRP10 Account</p>
+                <form>
+                    <div class="user-name">
+                        <label for="username" class="uname">User Name</label>
+                        <input type="text" class="user" id="username" name="username" placeholder=""/>
+                    </div>
+
+                    <div class="pass-word">
+                        <lable for="password" class="uname">Password</lable>
+                        <input type="password" class="user" id="password" name="password" placeholder=""/>
+                    </div>
+                    <button type="button" value="" class="button-name">LOGIN</button>
+                </form>
+                <p class="sign-in">Dont have account yet? <a href="signup.html">Create Account</a> </p>
+            </div>
+           
+        </div>
+    </body>
+</html>
