@@ -107,9 +107,6 @@ footer{
     .footermajor{
         flex:100%
     }
-    main{
-        background-color:red;
-    }
 }
 
 .footer-bottom{
@@ -137,6 +134,14 @@ footer{
     text-decoration: none;
     color: white;
 }
+ main{
+    background-image: url("GRP10.png");
+    background-size: cover;        /* Scales image to cover the container */
+    background-repeat: no-repeat;  /* Prevents repeating the image */
+    background-position: center;   /* Centers the image */
+    background-attachment:fixed;
+}
+            }
 
 
 
