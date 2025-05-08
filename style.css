@@ -107,7 +107,7 @@ footer{
     .footermajor{
         flex:100%
     }
-    nav{
+    main{
         background-color:red;
     }
 }
