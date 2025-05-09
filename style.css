@@ -84,7 +84,13 @@ nav{
 .nav-link:hover{
     background-color: white;
     color:black;
-
+}
+.nav-link.active{
+    background-color: rgb(178, 212, 212);
+    color: black;
+    border-bottom-style: solid;
+    border-color: red;
+    border-width: 1px;
 }
 .center-footer, .left-footer, .right-footer{
     display: flex;
