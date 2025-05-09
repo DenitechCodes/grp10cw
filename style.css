@@ -119,10 +119,6 @@ footer{
     color:blue;
 }
 
-.footer-links{
-color:rgb(39, 38, 38);
-}
-
 .footermajor{
     flex:1;
     background-color: #80989c;
@@ -162,7 +158,7 @@ color:rgb(39, 38, 38);
 
 .footer-links{
     text-decoration: none;
-    color: white;
+    color:rgb(39, 38, 38);
 }
 
 
