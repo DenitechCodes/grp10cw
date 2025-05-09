@@ -108,8 +108,10 @@ footer{
     display:flex;
     flex-wrap: wrap;
     gap:4px;
-    color:white;
-    
+    color:blac  
+}
+.footer-links:hover{
+    color:blue;
 }
 
 .footermajor{
