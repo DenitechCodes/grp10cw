@@ -53,7 +53,12 @@ header{
     border-width: 2px;
     border-color: red;
 }
-
+.header-links.active{
+    color:blue;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
 
 .pics{
     margin-left: 2px;
