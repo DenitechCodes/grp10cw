@@ -108,12 +108,14 @@ footer{
     display:flex;
     flex-wrap: wrap;
     gap:4px;
-    color:blac  
+    color:rgb(39, 38, 38)  
 }
 .footer-links:hover{
     color:blue;
 }
-
+.footer-links{
+color:rgb(39, 38, 38);
+]
 .footermajor{
     flex:1;
     background-color: #80989c;
