@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>create GRP10 account</title>
+        <style>
+            *{
+                font-size: 12px;
+                padding:0px;
+                margin: 0px;
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            }
+            body{
+                background-color: aliceblue;
+            }
+            form{
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%, -50%);
+
+            }
+            section{
+                margin: 0.7rem;
+            }
+            .gender-box{
+                display :flex;
+                justify-content: space-between;
+            }
+            .title-title{
+                font-weight: 900;
+            }
+            .typel{
+                padding-left:4px;
+                padding-right:4px;
+                background-color: rgb(213, 219, 217);
+                border-width: 1px;
+            }
+            .typel:hover{
+                background-color: aliceblue;
+
+            }
+        </style>
+    </head>
+        <main>
+            <form>
+                <div class="title">
+                <P class="title-title" style="text-align: center;">Create GRP 10 Account</P>
+            </div>
+                <section>
+                    <label for="sname">SurName:</label><br>
+                    <input type="text" class="typel" id="sname" name="Sur Name" ><br>
+                </section>
+                <section>
+                    <label for="oname">OtherName:</label><br>
+                    <input type="text" class="typel" id="oname" name="Other Name" ><br>
+                </section>
+                <section>
+                    <label for="nin">NIN:</label><br>
+                    <input type="text" class="typel" id="nin" name="NIN" ><br>
+                </section>
+                <section>
+                    <label for="gender">Gender</label><br>
+                <div class="gender-box">
+                    <div>
+                    <input type="radio" id="gender" name="gender"
+                    value="male" ><span>Male</span>
+                    </div>
+                    <div>
+                    <input type="radio" id="gender" name="gender"
+                    value="Female"><span>Female</span>
+                    </div>
+                </div>
+                </section>
+                <section>
+                    <label for="email">Email Address</label><br>
+                    <input type="text" Class="typel" id="email" name="Email">
+                </section>
+                <section>
+                    <label for="tel">Telephone</label><br>
+                    <input type="text" Class="typel" id="tel" name="Telephone contact">
+                </section>
+                <section>
+                    <label for="pass">Password</label><br>
+                    <input type="password" Class="typel" id="tel" name="Telephone contact">
+                </section>
+                <section>
+                    <button type="button" value="submit">Submit</button>
+                </section>
+            </form>
+        </main>
+
+</html>
